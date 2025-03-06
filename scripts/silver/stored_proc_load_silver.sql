@@ -5,7 +5,8 @@ Silver Layer Data Cleaning and Transformation
 
 This Script creates Stored Procedure for Silver to Load cleaned and Transformed Data
 from the Bronze Layer.
-
+Actions Performed:
+- Truncates Silver tables.
 - Check Duplicates and Null Primary Keys:
     - Ensure Only One record per entity by identifying and retaining the most relevant row.
     - Removing Null in Primary Key Column is Essential
